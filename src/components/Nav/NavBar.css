@@ -51,6 +51,7 @@
     align-items: center;
     height: 120px;
     width: 40%;
+    top:100px;
     background-color: #eff0f3;
     flex-direction: column;
     padding: 5px;

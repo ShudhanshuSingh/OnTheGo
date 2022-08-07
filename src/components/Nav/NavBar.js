@@ -37,9 +37,14 @@ function NavBar() {
       {visible ? (
         <div className="room-modal">
           <input type="text" onChange={(e) => setId(e.target.value)} />
+          <div>
           <button className="join-room-btn" onClick={joinIn}>
             Less Go!
           </button>
+          <button className="join-room-btn" onClick={toggle}>
+            Back
+          </button>
+          </div>
         </div>
       ) : (
         <></>
